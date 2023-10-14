@@ -36,9 +36,12 @@ function getFlags() {
 	const addLeadingDash = function(value) {
 		// FPC command line allows for adding fpc.cfg paths by the @-symbol,
 		// hence it shouldn't be preceded by a dash.
+		core.info('Add dash to flag: ' + value);
 		if((value.charAt(0) !== '-') && (value.charAt(0) !== '@')) {
+			core.info('Add dash');
 			return '-' + value;
 		} else {
+			core.info('Do not add dash');
 			return value;
 		}
 	};
