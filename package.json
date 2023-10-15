@@ -4,7 +4,7 @@
 	"version": "0.4.0",
 	"license": "Zlib",
 	"author": "suve",
-	"repository": "https://github.com/suve/GHActions-FPC",
+	"repository": "https://github.com/Free-Pascal-meets-SDL-Website/GHActions-FPC",
 	"scripts": {
 		"build": "ncc build src/main.js --out dist --minify --license licence.txt"
 	},
