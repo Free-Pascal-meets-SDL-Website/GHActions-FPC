@@ -124,6 +124,8 @@ async function main() {
 	const MIN_VERSION = '2.1.2';
 
 	try {
+		console.log('console LOG');
+		core.info('core INFO');
 		let inputs = getInputs();
 		await checkFpcVersion(inputs.fpc, MIN_VERSION);
 
