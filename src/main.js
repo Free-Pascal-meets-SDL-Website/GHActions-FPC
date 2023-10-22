@@ -51,7 +51,7 @@ function getExecOptions(inputs, parser) {
 
 function printStats(parserData) {
 	let message = `
--= GHActions-FPC =-
+-= GHActions-FPC !!! =-
 
 | Message level | Compiler | User |
 | ------------- | -------- | ---- |
